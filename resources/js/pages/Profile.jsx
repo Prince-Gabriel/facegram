@@ -90,7 +90,7 @@ export const Profile = () => {
                 {/* Profile Header */}
                 <div className="p-6 sm:p-8 border-b">
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-                        <Avatar size="xlarge" src={profile.avatar_url} alt={profile.full_name} />
+                        <Avatar size="xlarge" src={profile.profile_picture} alt={profile.full_name} />
                         <div className="flex-grow">
                             <div className="flex items-center justify-between">
                                 <h1 className="text-2xl font-bold text-gray-900">{profile.full_name}</h1>
